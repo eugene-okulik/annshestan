@@ -7,7 +7,7 @@ llist.append('hehe')
 llist.pop(1)
 print(llist)
 ddict = my_dict['dict']
-ddict['i am tuple'] = 'three'
+ddict[('i am tuple',)] = 'three'
 ddict.pop('1')
 print(ddict)
 sset = my_dict['set']
